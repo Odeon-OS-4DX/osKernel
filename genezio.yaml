@@ -1,0 +1,12 @@
+frontend:
+    path: .
+    publish: www
+    scripts:
+        build:
+            - npm run build
+        deploy:
+            - npm install
+    subdomain: osKernel
+name: osKernel
+region: us-east-1
+yamlVersion: 2
